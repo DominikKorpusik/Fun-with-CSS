@@ -1,6 +1,5 @@
-html,
 body {
-    margin: 0px;
+    margin: auto 0;
 }
 
 .container {
@@ -12,7 +11,6 @@ body {
 
 .zone {
     cursor: pointer;
-    display: grid;
     color: #FFF;
     font-size: 2em;
     border-radius: 4px;
@@ -57,6 +55,18 @@ img {
 }
 
 
+/* NAV */
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.push {
+    margin-left: auto;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -66,25 +76,19 @@ ul {
     font-size: 1.2rem;
 }
 
-li:last-child {
-    float: right;
-}
-
 li {
-    float: left;
+    padding: 20px;
 }
 
-li a {
-    display: block;
+a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #33b155;
+a:hover {
+    color: #bbb;
 }
+
 
 .zone:hover {
     -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
